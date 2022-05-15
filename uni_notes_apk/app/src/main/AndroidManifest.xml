@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myandroidapp.uni_notes_apk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Uni_notes_apk">
+        <activity android:name=".DqlSqlActivity2"></activity>
+        <activity android:name=".SqlSqlActivity2" />
+        <activity android:name=".DclSqlActivity2" />
+        <activity android:name=".DmlSqlActivity2" />
+        <activity android:name=".DdlSqlActivity2" />
+        <activity android:name=".CommandsSqlActivity2" />
+        <activity android:name=".IntroSqlActivity2" />
+        <activity android:name=".TuplePythonActivity2" />
+        <activity android:name=".ListPythonActivity2" />
+        <activity android:name=".OpPythonActivity2" />
+        <activity android:name=".DataPythonActivity2" />
+        <activity android:name=".VarPythonActivity2" />
+        <activity android:name=".IntroPythonActivity2" />
+        <activity android:name=".OopJavaActivity2" />
+        <activity android:name=".LoopJavaActivity2" />
+        <activity android:name=".IfJavaActivity2" />
+        <activity android:name=".OpJavaActivity2" />
+        <activity android:name=".DataJavaActivity2" />
+        <activity android:name=".VarJavaActivity2" />
+        <activity android:name=".IntroJavaActivity2" />
+        <activity android:name=".SqlActivity2" />
+        <activity android:name=".PythonActivity2" />
+        <activity android:name=".JavaActivity2" />
+        <activity android:name=".NotesActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_duaOfAcceptance"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.duaOfAcceptance.DuaOfAcceptanceFragment"
+        android:label="fragment_dua_of_acceptance"
+        tools:layout="@layout/fragment_dua_of_acceptance" />
+    <fragment
+        android:id="@+id/nav_duaOfGuidance"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.duaOfGuidance.DuaOfGuidanceFragment"
+        android:label="fragment_dua_of_guidance"
+        tools:layout="@layout/fragment_dua_of_guidance" />
+    <fragment
+        android:id="@+id/nav_duaOfSadness"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.duaOfSadness.DuaOfSadnessFragment"
+        android:label="fragment_dua_of_sadness"
+        tools:layout="@layout/fragment_dua_of_sadness" />
+    <fragment
+        android:id="@+id/nav_duaOfGoodness"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.duaOfGoodness.DuaOfGoodnessFragment"
+        android:label="fragment_dua_of_goodness"
+        tools:layout="@layout/fragment_dua_of_goodness" />
+    <fragment
+        android:id="@+id/nav_duaOfForgiveness"
+        android:name="com.myandroidapp.islamic_dua_apk.ui.duaOfForgiveness.DuaOfForgivenessFragment"
+        android:label="fragment_dua_of_forgiveness"
+        tools:layout="@layout/fragment_dua_of_forgiveness" />
+</navigation>

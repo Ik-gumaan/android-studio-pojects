@@ -1,0 +1,2 @@
+rootProject.name = "story_apk"
+include ':app'

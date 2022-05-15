@@ -1,0 +1,2 @@
+rootProject.name = "android_activity_lifecycle_demo_apk"
+include ':app'

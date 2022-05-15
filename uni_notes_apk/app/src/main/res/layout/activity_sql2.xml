@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SqlActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:text="Sql Notes"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_introSql"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Introduction to SQL"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_commands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2: SQL Commands"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_ddl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3: DDL"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_dml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4: DML"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_dql"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5: DQL"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_dcl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6: DCL"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".UAlphabetsActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/uAlphabetFragmentContainerView"
+        android:name="com.myandroidapp.children_learning_app.uAlphabetFragments.AlifFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_alif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ا"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_alifMadda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="آ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/btn_bay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ب"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="پ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_tay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ت"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_ttay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ٹ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_say"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ث"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_jeem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ج"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_chay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="چ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_hay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ح"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_khay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="خ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_daal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="د"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_ddaal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ڈ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_zaal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ذ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_ray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ر"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_rray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ڑ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_zay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ز"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_zzay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ژ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_seen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="س"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_sheen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ش"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_swad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ص"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_zuad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ض"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_toen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ط"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_zoen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ظ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_ain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ع"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_gain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="غ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_fay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ف"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_qaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ق"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_kaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ک"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_gaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="گ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_lam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ل"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_meem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="م"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_noon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ن"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_wow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="و"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_hah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ہ"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_hamza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ء"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+            <Button
+                android:id="@+id/btn_yay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="ی ے"
+                android:textAllCaps="false"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

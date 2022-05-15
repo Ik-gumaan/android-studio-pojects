@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myandroidapp.html_notes_apk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Html_notes_apk">
+        <activity android:name=".AttrHtmlActivity2"></activity>
+        <activity android:name=".ParaHtmlActivity2" />
+        <activity android:name=".BlockInlineHtmlActivity2" />
+        <activity android:name=".HeadingsHtmlActivity2" />
+        <activity android:name=".ElementsHtmlActivity2" />
+        <activity android:name=".LinksHtmlActivity2" />
+        <activity android:name=".IntroHtmlActivity2" />
+        <activity android:name=".HtmlNotesActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

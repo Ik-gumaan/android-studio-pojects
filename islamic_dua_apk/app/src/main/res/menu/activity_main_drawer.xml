@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_duaOfAcceptance"
+            android:icon="@drawable/icon_dua"
+            android:title="@string/dua_of_acceptance" />
+        <item
+            android:id="@+id/nav_duaOfGuidance"
+            android:icon="@drawable/icon_dua"
+            android:title="@string/dua_of_guidance" />
+        <item
+            android:id="@+id/nav_duaOfSadness"
+            android:icon="@drawable/icon_dua"
+            android:title="@string/dua_of_sadness" />
+        <item
+            android:id="@+id/nav_duaOfGoodness"
+            android:icon="@drawable/icon_dua"
+            android:title="@string/dua_of_goodness" />
+        <item
+            android:id="@+id/nav_duaOfForgiveness"
+            android:icon="@drawable/icon_dua"
+            android:title="@string/dua_of_forgiveness" />
+    </group>
+</menu>

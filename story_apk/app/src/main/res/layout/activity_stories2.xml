@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F1FD"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:gravity="center"
+                android:text="Select a Story"
+                android:textColor="#673AB7"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_foxCrow"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/fox_and_crow" />
+
+            <ImageView
+                android:id="@+id/img_honestWoodcutter"
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                app:srcCompat="@drawable/honest_woodcutter" />
+
+            <ImageView
+                android:id="@+id/img_thirstyCrow"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                app:srcCompat="@drawable/thirst_crow" />
+
+            <ImageView
+                android:id="@+id/img_foolishStag"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                app:srcCompat="@drawable/f_stag" />
+
+            <ImageView
+                android:id="@+id/img_greedyDog"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/greedy_dog" />
+
+            <ImageView
+                android:id="@+id/img_hareTortoise"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                app:srcCompat="@drawable/hare_and_tortoise" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

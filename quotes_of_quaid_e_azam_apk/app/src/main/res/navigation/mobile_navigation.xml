@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.myandroidapp.quotes_of_quaid_e_azam_apk.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_quote1"
+        android:name="com.myandroidapp.quotes_of_quaid_e_azam_apk.ui.Quote1Fragment"
+        android:label="fragment_quote1"
+        tools:layout="@layout/fragment_quote1" >
+        <action
+            android:id="@+id/action_nav_quote1_to_nav_quote2"
+            app:destination="@id/nav_quote2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_quote2"
+        android:name="com.myandroidapp.quotes_of_quaid_e_azam_apk.ui.Quote2Fragment"
+        android:label="fragment_quote2"
+        tools:layout="@layout/fragment_quote2" >
+        <action
+            android:id="@+id/action_nav_quote2_to_nav_quote3"
+            app:destination="@id/nav_quote3" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_quote3"
+        android:name="com.myandroidapp.quotes_of_quaid_e_azam_apk.ui.Quote3Fragment"
+        android:label="fragment_quote3"
+        tools:layout="@layout/fragment_quote3" >
+        <action
+            android:id="@+id/action_nav_quote3_to_nav_quote4"
+            app:destination="@id/nav_quote4" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_quote4"
+        android:name="com.myandroidapp.quotes_of_quaid_e_azam_apk.ui.Quote4Fragment"
+        android:label="fragment_quote4"
+        tools:layout="@layout/fragment_quote4" >
+        <action
+            android:id="@+id/action_nav_quote4_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

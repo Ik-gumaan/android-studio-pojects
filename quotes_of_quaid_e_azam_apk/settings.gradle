@@ -1,0 +1,2 @@
+rootProject.name = "quotes_of_quaid_e_azam_apk"
+include ':app'

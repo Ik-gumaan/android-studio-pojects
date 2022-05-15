@@ -1,0 +1,2 @@
+rootProject.name = "roll_the_dice_apk"
+include ':app'

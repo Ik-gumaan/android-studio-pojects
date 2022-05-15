@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.myandroidapp.m_cv_apk.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_personalDetails"
+        android:name="com.myandroidapp.m_cv_apk.ui.personalDetails.PersonalDetailsFragment"
+        android:label="fragment_personal_details"
+        tools:layout="@layout/fragment_personal_details" />
+    <fragment
+        android:id="@+id/nav_education"
+        android:name="com.myandroidapp.m_cv_apk.ui.education.EducationFragment"
+        android:label="fragment_education"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/nav_portfolio"
+        android:name="com.myandroidapp.m_cv_apk.ui.portfolio.PortfolioFragment"
+        android:label="fragment_portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+    <fragment
+        android:id="@+id/nav_experience"
+        android:name="com.myandroidapp.m_cv_apk.ui.experience.ExperienceFragment"
+        android:label="fragment_experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/nav_skillsAndExpertise"
+        android:name="com.myandroidapp.m_cv_apk.ui.skillsAndExpertise.SkillsAndExpertiseFragment"
+        android:label="fragment_skills_and_expertise"
+        tools:layout="@layout/fragment_skills_and_expertise" />
+
+</navigation>

@@ -1,0 +1,2 @@
+rootProject.name = "covid19_registration_apk"
+include ':app'

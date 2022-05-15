@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.myandroidapp.famous_quotes_apk.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_aristoleQuote"
+        android:name="com.myandroidapp.famous_quotes_apk.ui.AristoleQuoteFragment"
+        android:label="fragment_aristole_quote"
+        tools:layout="@layout/fragment_aristole_quote" >
+        <action
+            android:id="@+id/action_nav_aristoleQuote_to_nav_franklinDRooseveltQuote"
+            app:destination="@id/nav_franklinDRooseveltQuote" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_franklinDRooseveltQuote"
+        android:name="com.myandroidapp.famous_quotes_apk.ui.FranklinDRooseveltQuoteFragment"
+        android:label="fragment_franklin_d_roosevelt_quote"
+        tools:layout="@layout/fragment_franklin_d_roosevelt_quote" >
+        <action
+            android:id="@+id/action_nav_franklinDRooseveltQuote_to_nav_helenKellerQuote"
+            app:destination="@id/nav_helenKellerQuote" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_helenKellerQuote"
+        android:name="com.myandroidapp.famous_quotes_apk.ui.HelenKellerQuoteFragment"
+        android:label="fragment_helen_keller_quote"
+        tools:layout="@layout/fragment_helen_keller_quote" >
+        <action
+            android:id="@+id/action_nav_helenKellerQuote_to_nav_margaretMeadQuote"
+            app:destination="@id/nav_margaretMeadQuote" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_margaretMeadQuote"
+        android:name="com.myandroidapp.famous_quotes_apk.ui.MargaretMeadQuoteFragment"
+        android:label="fragment_margaret_mead_quote"
+        tools:layout="@layout/fragment_margaret_mead_quote" >
+        <action
+            android:id="@+id/action_nav_margaretMeadQuote_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>

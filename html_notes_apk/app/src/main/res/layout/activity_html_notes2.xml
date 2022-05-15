@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HtmlNotesActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:text="HTML Notes"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_introHtml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Introduction to HTML"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_ele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2: Elements"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_attr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3: Attributes"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_headings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4: Headings"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn_para"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5: Paragraph"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_links"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6: Links"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_block_inline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 7: Block and Inline Elements"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChaptersActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:text="Java Notes"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_introJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1: Introduction to Java"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_varJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Chapter 2: Variables" />
+
+            <Button
+                android:id="@+id/btn_data_typesJava"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3: Data Types" />
+
+
+            <Button
+                android:id="@+id/btn_operatorsJava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Chapter 4: Operators" />
+
+            <Button
+                android:id="@+id/btn_ifElse"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="Chapter 5: Conditional Statemenet" />
+
+            <Button
+                android:id="@+id/btn_loops"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="Chapter 6: Loops" />
+
+            <Button
+                android:id="@+id/btn_oop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Chapter 7: OOP" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
